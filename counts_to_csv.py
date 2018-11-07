@@ -6,7 +6,7 @@ def create_timeline(file_name):
 	# take timeline filename
 	# read data points
 	# put into numpy matrix and return matrix
-#	np_mat_time;
+	# np_mat_time;
 
 def add_counts_to_matrix(file_name):
 	# take population counts for timeline
