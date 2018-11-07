@@ -1,0 +1,22 @@
+# my epic script for population counts to csv file conversion
+import numpy as np
+import os
+
+def create_timeline(file_name):
+	# take timeline filename
+	# read data points
+	# put into numpy matrix and return matrix
+#	np_mat_time;
+
+def add_counts_to_matrix(file_name):
+	# take population counts for timeline
+	# insert into next empty spot in numpy matrix
+	# return updated matrix
+
+def convert_counts(folder_name):
+	# take folder name with experiment files
+	# first create timeline matrix
+	# next add data for each timepoint
+	# return complete matrix
+	for subdir, dirs, files in os.walk(folder_name):
+		print os.path.join(subdir,file)
