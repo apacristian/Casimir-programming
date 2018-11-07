@@ -1,3 +1,5 @@
 print ('try')
 
+import test
+
 
