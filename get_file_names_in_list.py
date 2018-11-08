@@ -7,8 +7,8 @@ def transform():
 	while get_files!="no":
 		get_files=input('Which files you want to analyze?("no" if no more)')
 		data.append(get_files)
-	data=data[:-1]
-	return  data
+	list_names=data[:-1]
+	return  list_names
 
 print (transform())
 
