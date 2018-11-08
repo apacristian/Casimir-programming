@@ -9,6 +9,3 @@ def transform():
 		data.append(get_files)
 	list_names=data[:-1]
 	return  list_names
-
-print (transform())
-
