@@ -8,7 +8,7 @@ def derivatives(data_raw):
 	local_diff = np.diff(data_raw, n=1, axis=0)
 
 	# calculate instantaneous derivative
-	local_derivatives = np.true_divide(local_diff[:,1::], np.transpose([local_diff[:,0]])
+	local_derivatives = np.true_divide(local_diff[:,1::], np.transpose([local_diff[:,0]]))
 
 	return local_derivatives
 
