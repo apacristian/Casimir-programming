@@ -41,10 +41,13 @@ allfiles=transform()
 
 all_data=[]
 for i in allfiles:
-    alldata.append(data_transf(i))
+    all_data.append(data_transf(i))
 
-    
-    
-    
-    
-    
+print (f"Your data to analyse is: {all_data}")
+for i in range(len(all_data)):
+	print (all_data[i])
+
+all_data_reorg=[]
+'''for i in all_data:
+	if i [0] in :
+'''
