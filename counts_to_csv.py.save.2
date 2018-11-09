@@ -1,0 +1,45 @@
+# my epic script for population counts to csv file conversion
+import numpy as np
+import csv
+
+def create_timeline(file_name):
+	# take timeline filename
+	# read data points
+	# put into numpy matrix and return matrix
+	# np_mat_time;
+	return 0
+
+def add_counts_to_matrix(file_name):
+	# take population counts for timeline
+	# insert into next empty spot in numpy matrix
+	# return updated matrix
+	return 0
+
+def convert_counts(folder_name):
+	# take folder name with experiment files
+	# first create timeline matrix
+	# next add data for each timepoint
+	# return complete matrix
+	return 0
+
+def convert_to_log():
+	return 0
+
+def derivatives(data_raw):
+	local_diff = np.diff(a, n=1, axis=0)
+	local_deriv = np.true_divide(local_diff[:,1::], np.transpose([local_diff[:,0]]))
+
+	return local_deriv
+
+def growth(data_raw):
+	% first find derivatives of growth curves
+	deriv = derivatives(data_raw)
+	
+	% calculate local instantaneous growth rtes by selecting maximum derivative
+	local_instant_growth_rate = np.amax(local_deriv,0)
+
+	% calculate time of growth by selecting timepoint where growth rate is maximum
+	local_time_of_growth = data_raw[np.argmax(local_deriv,0),0]
+ 	
+
+	return 
